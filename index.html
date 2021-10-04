@@ -9,225 +9,283 @@
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css" />
     <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src='main.js'></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/bbe27ab0c5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style\css.css" />
 </head>
-<header>
-    <div class="header-carousel">
-    </div>
-</header>
+<div id="main">
+    <header>
+        <div class="header-carousel">
+            
+            <nav class="navbar navbar-expand-sm navbar-dark" style="background: rgb(0, 0, 0);">
+                <div class="container">
+                <a class="navbar-brand">Hersøe Audio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03"
+                    aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-<body>
-    <div class="container">
-        <hr class="featurette-divider">
-        <div class="col-lg">
-            <h2 class="headings">About</h2>
-            <div class="row">
-                <div class="col-sm-5">
-                    <img src="imgs\cappercaw.jpg" class="info-pics">
-                </div>
-                <div class="col-sm-7">
-                    <div class="center-p">
-                        <p>Hi!</p>
-                        <p>My name is Casper.</p>
-                        <p>I am a freelance touring sound tech from Copenhagen, Denmark.</p>
-                        <p>I specialize is FOH engineeering, mixing, mastering and recording</p>
-                        <p>I pride myself in giving your music a fresh modern touch - both live and in the studio</p>
-                        <p>If this sounds like what you need, hit me up.</p>
-                    </div>
+                <div class="collapse navbar-collapse" id="navbarsExample03">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#mix-master">Mix & master</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#foh">FOH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#recording">Recording</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+            </nav>
         </div>
+    </header>
 
-        <hr class="featurette-divider">
-
+    <body>
         <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <button type="button" class="collapsible-icon"><img src="imgs\icon-monitoring.png" class="icons">
-                    </button>
-                    <div class="icon-content">
-                        <p>Let's mix & master!</p>
-                        <a href="#mix-master"><button type="button" class="btn btn-outline-secondary">More
-                                info</button></a>
+            <div class="col-lg">
+                <a name="about">
+                    <h2 class="headings">About</h2>
+                </a>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <img src="imgs\cappercaw.jpg" class="info-pics">
                     </div>
-                </div>
-                <div class="col-sm">
-                    <button type="button" class="collapsible-icon"><img src="imgs\icon-mixeur.png" class="icons">
-                    </button>
-                    <div class="icon-content">
-                        <p>Let's tour!</p>
-                        <a href="#foh"><button type="button" class="btn btn-outline-secondary">More info</button></a>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <button type="button" class="collapsible-icon"><img src="imgs\icon-microphone.png" class="icons">
-                    </button>
-                    <div class="icon-content">
-                        <p>Let's record!</p>
-                        <a href="#recording"><button type="button" class="btn btn-outline-secondary">More
-                                info</button></a>
+                    <div class="col-sm-7">
+                        <div class="center-p">
+                            <p>Hi!</p>
+                            <p>My name is Casper.</p>
+                            <p>I am a freelance touring sound tech from Copenhagen, Denmark.</p>
+                            <p>I specialize is FOH engineeering, mixing, mastering and recording</p>
+                            <p>I pride myself in giving your music a fresh modern touch - both live and in the studio
+                            </p>
+                            <p>If this sounds like what you need, hit me up.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <hr class="featurette-divider">
-        <div class="col-lg">
-            <a name="mix-master">
-                <h2 class="headings">Mixing & mastering</h2>
-            </a>
-            <div class="info-content">
-                <p>Let's make your music pop and standout with a fresh and phat mix.</p>
-                <p>Get in touch to discuss ratings!</p>
-                <p>Portfolio:</p>
-                <iframe src="https://open.spotify.com/embed/album/5jUjFzJCiiYGBukL0GDqDm" width="40%" height="380"
-                    frameBorder="0" allowfullscreen=""
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                <iframe src="https://open.spotify.com/embed/album/4cJ5kGl6OAm5XoA871gcRP" width="40%" height="380"
-                    frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            </div>
-        </div>
-        <hr class="featurette-divider">
-        <div class="col-lg">
-            <a name="foh">
-                <h2 class="headings">FOH</h2>
-            </a>
-            <div class="info-content">
-                <p>Being in house FOH at both Templet (Lyngby, DK) and High Voltage (Copenhagen, DK) I have worked with
-                    many artists across different genres,
-                    and know how to adapt and make your band sound great no matter the circumstances.</p>
-                <p>I am touring FOH tech with Ghost Iris, Hatesphere, Cold Night For Alligators, Diretone, Statement,
-                    and many others.</p>
-                <p>I have toured all over Europe, Russia and Asia, and the shared stages with bands such as Jinjer,
-                    Dream Theater, After The Burial, Betraying The Martyrs.</p>
-                <p>Get in touch if you need a FOH tech for your next tour!</p>
-            </div>
-        </div>
-        <hr class="featurette-divider">
-        <div class="col-lg">
-            <a name="recording">
-                <h2 class="headings">Recording</h2>
-            </a>
-            <div class="row">
-                <div class="col-sm-7">
-                    <div class="center-p">
-                        <p>If you live the greater capital area of Denmark, I am available to record you and your band.</p>
-                        <p>Whether it be just a demo, pre-productions or a full album/EP, we can get it done.</p>
-                        <P>Get in touch!</P>
+            <hr class="featurette-divider">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <button type="button" class="collapsible-icon"><img src="imgs\icon-monitoring.png"
+                                class="icons">
+                        </button>
+                        <div class="icon-content">
+                            <p>Let's mix & master!</p>
+                            <a href="#mix-master"><button type="button" class="btn btn-outline-secondary">More
+                                    info</button></a>
+                        </div>
                     </div>
-
-                </div>
-                <div class="col-sm-5">
-                    <img src="imgs\studio.png" class="info-pics">
+                    <div class="col-sm">
+                        <button type="button" class="collapsible-icon"><img src="imgs\icon-mixeur.png" class="icons">
+                        </button>
+                        <div class="icon-content">
+                            <p>Let's tour!</p>
+                            <a href="#foh"><button type="button" class="btn btn-outline-secondary">More
+                                    info</button></a>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <button type="button" class="collapsible-icon"><img src="imgs\icon-microphone.png"
+                                class="icons">
+                        </button>
+                        <div class="icon-content">
+                            <p>Let's record!</p>
+                            <a href="#recording"><button type="button" class="btn btn-outline-secondary">More
+                                    info</button></a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+
+            <hr class="featurette-divider">
+            <div class="col-lg">
+                <a name="mix-master">
+                    <h2 class="headings">Mixing & mastering</h2>
+                </a>
+                <div class="info-content">
+                    <p>Let's make your music pop and standout with a fresh and phat mix.</p>
+                    <p>Get in touch to discuss ratings!</p>
+                    <p>Portfolio:</p>
+                    <iframe src="https://open.spotify.com/embed/album/5jUjFzJCiiYGBukL0GDqDm" width="40%" height="380"
+                        frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                    <iframe src="https://open.spotify.com/embed/album/4cJ5kGl6OAm5XoA871gcRP" width="40%" height="380"
+                        frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="col-lg">
+                <a name="foh">
+                    <h2 class="headings">FOH</h2>
+                </a>
+                <div class="info-content">
+                    <p>Being in house FOH at both Templet (Lyngby, DK) and High Voltage (Copenhagen, DK) I have worked
+                        with
+                        many artists across different genres,
+                        and know how to adapt and make your band sound great no matter the circumstances.</p>
+                    <p>I am touring FOH tech with Ghost Iris, Hatesphere, Cold Night For Alligators, Diretone,
+                        Statement,
+                        and many others.</p>
+                    <p>I have toured all over Europe, Russia and Asia, and the shared stages with bands such as Jinjer,
+                        Dream Theater, After The Burial, Betraying The Martyrs.</p>
+                    <p>Get in touch if you need a FOH tech for your next tour!</p>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="col-lg">
+                <a name="recording">
+                    <h2 class="headings">Recording</h2>
+                </a>
+                <div class="row">
+                    <div class="col-sm-7">
+                        <div class="center-p">
+                            <p>If you live the greater capital area of Denmark, I am available to record you and your
+                                band.</p>
+                            <p>Whether it be just a demo, pre-productions or a full album/EP, we can get it done.</p>
+                            <P>Get in touch!</P>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-5">
+                        <img src="imgs\studio.png" class="info-pics">
+                    </div>
+                </div>
+            </div>
 
 
-        <hr class="featurette-divider">
+            <hr class="featurette-divider">
 
-        <div class="col-lg">
-            <a name="contact">
-                <h2 class="headings">Contact</h2>
-            </a>
-            <div>
-                <section class="ftco-section">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-10 col-md-12">
-                                <div class="wrapper">
-                                    <div class="contact-icons">
-                                        <div class="row justify-content-center">
-                                            <div class="col-sm-4 text-center">
-                                                <a href="https://www.facebook.com/profile.php?id=1307154398"
-                                                    target="_blank"><i class="fa fa-facebook-official fa-5x"
-                                                        style="color: black !important;"></i></a>
-                                            </div>
-                                            <div class="col-sm-4 text-center">
-                                                <a href="https://www.instagram.com/cappercaw" target="_blank"><i
-                                                        class="fa fa-instagram fa-5x"
-                                                        style="color: black !important;"></i></a>
-                                            </div>
-                                            <div class="col-sm-4 text-center">
-                                                <a href="mailto:capper@gmail.com"><i class="fa fa-envelope fa-5x"
-                                                        style="color: black;"></i></a>
+            <div class="col-lg">
+                <a name="contact">
+                    <h2 class="headings">Contact</h2>
+                </a>
+                <div>
+                    <section class="ftco-section">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-10 col-md-12">
+                                    <div class="wrapper">
+                                        <div class="contact-icons">
+                                            <div class="row justify-content-center">
+                                                <div class="col-sm-4 text-center">
+                                                    <a href="https://www.facebook.com/profile.php?id=1307154398"
+                                                        target="_blank"><i class="fa fa-facebook-official fa-5x"
+                                                            style="color: black !important;"></i></a>
+                                                </div>
+                                                <div class="col-sm-4 text-center">
+                                                    <a href="https://www.instagram.com/cappercaw" target="_blank"><i
+                                                            class="fa fa-instagram fa-5x"
+                                                            style="color: black !important;"></i></a>
+                                                </div>
+                                                <div class="col-sm-4 text-center">
+                                                    <a href="mailto:capper@gmail.com"><i class="fa fa-envelope fa-5x"
+                                                            style="color: black;"></i></a>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
 
-                                    <div class="col-md">
-                                        <div class="contact-wrap">
-                                            <div id="form-message-warning" class="mb-4 w-100 text-center"></div>
-                                            <!-- <div id="form-message-success" class="mb-4 w-100 text-center">
+                                        <div class="col-md">
+                                            <div class="contact-wrap">
+                                                <div id="form-message-warning" class="mb-4 w-100 text-center"></div>
+                                                <!-- <div id="form-message-success" class="mb-4 w-100 text-center">
                                         Your message was sent, thank you!
                                           </div> -->
-                                            <form method="POST" id="contactForm" name="contactForm" class="contactForm">
-                                                <div class="row">
-                                                    <div class="col-md-12">
-                                                        <div class="form-group">
-                                                            <input type="text" class="form-control" name="name"
-                                                                id="name" placeholder="Name">
+                                                <form method="POST" id="contactForm" name="contactForm"
+                                                    class="contactForm">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" name="name"
+                                                                    id="name" placeholder="Name">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="email" class="form-control" name="email"
+                                                                    id="email" placeholder="Email">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" name="subject"
+                                                                    id="subject" placeholder="Subject">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <textarea name="message" class="form-control"
+                                                                    id="message" cols="30" rows="8"
+                                                                    placeholder="Message"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="submit" value="Send Message"
+                                                                    class="btn btn-primary">
+                                                                <div class="submitting"></div>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-12">
-                                                        <div class="form-group">
-                                                            <input type="email" class="form-control" name="email"
-                                                                id="email" placeholder="Email">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-12">
-                                                        <div class="form-group">
-                                                            <input type="text" class="form-control" name="subject"
-                                                                id="subject" placeholder="Subject">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-12">
-                                                        <div class="form-group">
-                                                            <textarea name="message" class="form-control" id="message"
-                                                                cols="30" rows="8" placeholder="Message"></textarea>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-12">
-                                                        <div class="form-group">
-                                                            <input type="submit" value="Send Message"
-                                                                class="btn btn-primary">
-                                                            <div class="submitting"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </form>
+                                                </form>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
+                    </section>
 
+                </div>
             </div>
+            <hr class="featurette-divider">
         </div>
-        <hr class="featurette-divider">
-    </div>
 
 
 
-    <script>
-        var coll = document.getElementsByClassName("collapsible-icon");
-        var i;
+        <script>
+            var coll = document.getElementsByClassName("collapsible-icon");
+            var i;
 
-        for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function () {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.maxHeight) {
-                    content.style.maxHeight = null;
-                } else {
-                    content.style.maxHeight = content.scrollHeight + "px";
-                }
-            });
-        }
-    </script>
-</body>
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.maxHeight) {
+                        content.style.maxHeight = null;
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + "px";
+                    }
+                });
+            }
+        </script>
+        <script>
+            /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+            }
+
+            /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+            }
+        </script>
+    </body>
+</div>
 
 </html>

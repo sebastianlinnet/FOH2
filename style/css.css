@@ -7,12 +7,23 @@ body {
 }
 /* header og nav */
 
+.nav-item {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  transition: all 0.2s ease;
+}
+
+.nav-item:hover {
+  box-shadow: 0 0 0 1px rgb(230, 230, 230);
+}
+
 .header-carousel {
     height: 80vh;
     background-image: url(https://www.sheffieldav.com/sites/default/files/Best-Audio-Engineering-Schools.jpg);
     background-size: cover;
     background-position-y: 20%;
     opacity: 0.8;
+    box-shadow: 0 0 50px 0px rgb(187, 187, 187);
 }
 
 /* collapse ikoner */
@@ -76,6 +87,7 @@ button:focus {
     opacity: 0.85;
     object-fit: fit;
     border-radius: 3px;
+    box-shadow: 0 0 30px 0px rgb(187, 187, 187);
   }
 
   .headings {
