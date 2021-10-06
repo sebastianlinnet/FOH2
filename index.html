@@ -4,7 +4,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Casper Jensen | Sound tech</title>
+    <title>Casper Hersø Jensen | Sound tech</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css" />
     <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -18,15 +18,13 @@
 <div id="main">
     <header>
         <div class="header-carousel">
-            
-            <nav class="navbar navbar-expand-sm navbar-dark" style="background: rgb(0, 0, 0);">
+            <nav class="navbar navbar-expand-sm navbar-light" style="background: snow;">
                 <div class="container">
-                <a class="navbar-brand">Hersøe Audio</a>
+                <a class="navbar-brand">Hersø Audio</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03"
                     aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="collapse navbar-collapse" id="navbarsExample03">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
@@ -181,18 +179,18 @@
                                     <div class="wrapper">
                                         <div class="contact-icons">
                                             <div class="row justify-content-center">
-                                                <div class="col-sm-4 text-center">
+                                                <div class="col-sm-4 text-center" id="contactbuttons">
                                                     <a href="https://www.facebook.com/profile.php?id=1307154398"
                                                         target="_blank"><i class="fa fa-facebook-official fa-5x"
-                                                            style="color: black !important;"></i></a>
+                                                            style="color: black;"></i></a>
                                                 </div>
-                                                <div class="col-sm-4 text-center">
+                                                <div class="col-sm-4 text-center" id="contactbuttons">
                                                     <a href="https://www.instagram.com/cappercaw" target="_blank"><i
                                                             class="fa fa-instagram fa-5x"
-                                                            style="color: black !important;"></i></a>
+                                                            style="color: black;"></i></a>
                                                 </div>
-                                                <div class="col-sm-4 text-center">
-                                                    <a href="mailto:capper@gmail.com"><i class="fa fa-envelope fa-5x"
+                                                <div class="col-sm-4 text-center" id="contactbuttons">
+                                                    <a href="casperhersoejensen@gmail.com"><i class="fa fa-envelope fa-5x"
                                                             style="color: black;"></i></a>
                                                 </div>
                                             </div>
@@ -201,10 +199,7 @@
                                         <div class="col-md">
                                             <div class="contact-wrap">
                                                 <div id="form-message-warning" class="mb-4 w-100 text-center"></div>
-                                                <!-- <div id="form-message-success" class="mb-4 w-100 text-center">
-                                        Your message was sent, thank you!
-                                          </div> -->
-                                                <form method="POST" id="contactForm" name="contactForm"
+                                                <form action="https://formspree.io/f/xqkwndgr" method="POST" id="contactForm" name="contactForm"
                                                     class="contactForm">
                                                     <div class="row">
                                                         <div class="col-md-12">
@@ -252,10 +247,8 @@
                 </div>
             </div>
             <hr class="featurette-divider">
+            <div class="info-content"><p>&copy Casper Hersø Jensen</p></div>
         </div>
-
-
-
         <script>
             var coll = document.getElementsByClassName("collapsible-icon");
             var i;
@@ -270,19 +263,6 @@
                         content.style.maxHeight = content.scrollHeight + "px";
                     }
                 });
-            }
-        </script>
-        <script>
-            /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
-            function openNav() {
-                document.getElementById("mySidenav").style.width = "250px";
-                document.getElementById("main").style.marginLeft = "250px";
-            }
-
-            /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
-            function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
-                document.getElementById("main").style.marginLeft = "0";
             }
         </script>
     </body>

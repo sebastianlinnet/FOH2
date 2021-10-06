@@ -7,14 +7,22 @@ body {
 }
 /* header og nav */
 
+.navbar-brand {
+  color: #212529 !important;
+}
+
 .nav-item {
   margin-left: 1rem;
   margin-right: 1rem;
   transition: all 0.2s ease;
 }
 
+.nav-link {
+  color: #212529 !important;
+}
+
 .nav-item:hover {
-  box-shadow: 0 0 0 1px rgb(230, 230, 230);
+  box-shadow: 0 0 0 1px rgb(0, 0, 0);
 }
 
 .header-carousel {
@@ -108,11 +116,29 @@ button:focus {
 
 /* contact */ 
 
-.contact-icons {
+#contactbuttons{
   margin-top: 3rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
+@media only screen and (max-width: 500px){
+  #contactbuttons{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.fa-facebook-official:hover {
+  color: #212529 !important;
+}
+
+.fa-instagram:hover {
+  color: #212529 !important;
+}
+
+.fa-envelope:hover{
+  color: #212529 !important;
+}
   /* media */
 
   @media only screen and (max-width: 800px){
