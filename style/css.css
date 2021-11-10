@@ -1,5 +1,5 @@
 html {
-  scroll-behavior:smooth
+  scroll-behavior:smooth;
 }
 
 body {
@@ -114,6 +114,8 @@ button:focus {
 
 
 /* contact */ 
+
+
 
 #contactbuttons{
   margin-top: 3rem;
