@@ -13,7 +13,7 @@ body {
 .nav-item {
   margin-left: 1rem;
   margin-right: 1rem;
-  transition: all 0.2s ease;
+  /* transition: all 0.2s ease; */
 }
 
 .nav-link {
@@ -61,7 +61,7 @@ button:focus {
   border-radius: 20px;
   outline: none;
   text-align: center;
-  transition: all 0.2s ease;
+  /* transition: all 0.5s ease; */
   }
 
   .collapsible-icon:hover {
